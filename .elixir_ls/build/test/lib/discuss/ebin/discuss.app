@@ -12,6 +12,7 @@
                         'Elixir.Discuss.ModelCase',
                         'Elixir.Discuss.PageController',
                         'Elixir.Discuss.PageView',
+                        'Elixir.Discuss.Plugs.RequireAuth',
                         'Elixir.Discuss.Plugs.SetUser','Elixir.Discuss.Repo',
                         'Elixir.Discuss.Router',
                         'Elixir.Discuss.Router.Helpers',
