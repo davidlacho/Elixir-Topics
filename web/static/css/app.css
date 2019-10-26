@@ -1,0 +1,20 @@
+/* This file is for your main application css. */
+
+.alert {
+  margin-top: 8px;
+}
+
+.brand-logo {
+  margin-left: 4px;
+}
+.help-block {
+  color: red;
+  text-transform: capitalize;
+  position: absolute;
+  top: 48px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 32px;
+}
