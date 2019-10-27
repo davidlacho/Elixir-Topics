@@ -60,6 +60,11 @@ defmodule Discuss.TopicController do
     |> redirect(to: topic_path(conn, :index))
   end
 
+  def show(conn, %{"id" => topic_id}) do
+    topic = Repo.get!(Topic, topic_id)
+    render conn, "show.html", topic: topic
+  end
+
   def check_topic_owner(%{assigns: %{user: %{id: user_id}}, params: %{"id" => topic_id}} = conn, _params) do
     if Repo.get(Topic, topic_id).user_id == user_id do
       conn
