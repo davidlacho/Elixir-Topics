@@ -21,7 +21,8 @@
                         'Elixir.Discuss.TopicController',
                         'Elixir.Discuss.TopicView','Elixir.Discuss.User',
                         'Elixir.Discuss.UserSocket','Elixir.Discuss.Web',
-                        'Elixir.Poison.Encoder.Discuss.Comment']},
+                        'Elixir.Poison.Encoder.Discuss.Comment',
+                        'Elixir.Poison.Encoder.Discuss.User']},
               {registered,[]},
               {vsn,"0.0.1"},
               {mod,{'Elixir.Discuss',[]}}]}.
